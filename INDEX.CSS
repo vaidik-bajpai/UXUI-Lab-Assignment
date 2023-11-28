@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Lobster&family=Pacifico&family=Roboto&family=Roboto+Slab&family=Russo+One&family=Tektur&family=VT323&display=swap');
+*{
+    font-family: 'VT323', monospace;
+    MARGIN:0PX;
+    BORDER:BORDER-BOX;
+}
+body, html{
+    height: 100%;
+    background-image: url('download.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.NAV{
+    HEIGHT:80PX;
+    width: 100%;
+    COLOR:whitesmoke;
+}
+.NAV P{
+    DISPLAY:FLEX;
+    ALIGN-ITEMS:CENTER;
+    PADDING:20PX;
+    PADDING-LEFT:150PX;
+    FONT-SIZE:45PX;
+    justify-content:center;
+    FONT-WEIGHT:BOLDER;
+    /* background-image: linear-gradient(to right, #4adede,#1e2f97); */
+    background: transparent;
+}
+.IMG{
+    padding-right: 10px;
+    padding-bottom: 10PX;
+}
+.IMG img{
+    border-radius: 50%;
+}
+.CONTENT{
+    /* background-color: rgb(47, 60, 60); */
+    HEIGHT:650PX;
+    PADDING:15PX;
+    DISPLAY:FLEX;
+    align-items: center;
+    JUSTIFY-CONTENT:space-around;
+    padding-LEFT: 100PX;
+    
+    background-size:cover;
+}
+.CONTENT P{
+    COLOR: whitesmoke;
+    HEIGHT:40PX;
+    WIDTH:350PX;
+    BORDER-RADIUS:15PX;
+    DISPLAY:FLEX;
+    JUSTIFY-CONTENT:CENTER;
+    ALIGN-ITEMS:CENTER;
+    PADDING:10PX;
+    PADDING-BOTTOM:10PX;
+    MARGIN:7PX;
+    FONT-SIZE: 2rem;
+    FONT-WEIGHT:BOLD;
+    flex-direction: column;
+    /* background-image: linear-gradient(to right, #4adede,#1e2f97); */
+    background-color: transparent;
+}
+A{
+    FONT-SIZE: 2rem;
+    COLOR:whitesmoke;
+    HEIGHT:40PX;
+    WIDTH:350PX;
+    BORDER-RADIUS:15PX;
+    DISPLAY:FLEX;
+    JUSTIFY-CONTENT:CENTER;
+    ALIGN-ITEMS:CENTER;
+    PADDING:10PX;
+    PADDING-BOTTOM:10PX;
+    MARGIN:7PX;
+    cursor: pointer;
+    text-decoration: underline;
+    FONT-WEIGHT:BOLD;
+    /* background-image: linear-gradient(to right, #4adede,#1e2f97); */
+}

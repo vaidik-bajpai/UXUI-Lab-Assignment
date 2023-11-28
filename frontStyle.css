@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 800px;
+    height: 100vh;
+    margin: 20px auto;
+    background: gray;
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+a{
+    color: goldenrod;
+}
+a:active{
+    color: rgb(187, 147, 45);
+    text-shadow: 0 0 1px rgb(7, 14, 77);
+}
+header{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 100px 500px 200px; 
+}
+.header-logo{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    background-image: linear-gradient(to right, goldenrod, white);
+    display: grid;
+    place-content:center;
+    padding: 0 20px;
+    color:rgb(7, 14, 77)
+}
+.address{
+    text-align: center;
+    display: grid;
+    place-content: center;
+    color: whitesmoke;
+    border-left: 1px solid goldenrod;
+}
+
+.result{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(7, 14, 77);
+    color: whitesmoke;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+}
+section{
+    display: flex;
+    margin: 20px;
+}
+main{
+    display:grid;
+}
+.main-mid-left{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    padding: 0 10px;
+    text-align: center;
+}
+.main-mid-left div{
+    width: 125px;
+    height: 25px;
+    border: 1px solid goldenrod;
+    display: grid;
+    place-content: center;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 0 0 2px goldenrod;
+    background:rgb(7, 14, 77);
+    border-radius: 5px;
+}
+.news{
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.main-mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.main-mid-center{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.main-mid-center h2{
+    color: whitesmoke;
+}
+.main-mid-right{
+    display :flex;
+    flex-flow: column;
+    gap: 10px;
+}
+.companyname{
+    width :100%;
+    overflow: hidden;
+    height :20px;
+    background:rgb(187, 147, 45);
+    color: whitesmoke;
+    padding: 0 5px;
+}
+.knowledge{
+    height: 70px;
+    background: white;
+    text-align: center;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.25rem;
+}
+.footer-end{
+    background: goldenrod;
+    color: whitesmoke;
+    text-align: center;
+    height: 20px;
+}

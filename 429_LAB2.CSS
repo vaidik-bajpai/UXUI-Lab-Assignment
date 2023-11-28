@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Lobster&family=Pacifico&family=Pixelify+Sans&family=Roboto&family=Roboto+Slab&family=Russo+One&family=Tektur&family=VT323&display=swap');
+*{
+    font-family: 'VT323', monospace;
+    MARGIN:0PX;
+    BORDER:BORDER-BOX;
+}
+body, html{
+    height: 100%;
+    background-image: url('download.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.CONTENT{
+    HEIGHT:800PX;
+    DISPLAY:FLEX;
+    FLEX-DIRECTION:COLUMN;
+    JUSTIFY-CONTENT:CENTER;
+    BACKGROUND-SIZE:COVER;
+    ALIGN-ITEMS:CENTER;
+}
+
+P{
+    DISPLAY:FLEX;
+    ALIGN-ITEMS:CENTER;
+    PADDING:20PX;
+    PADDING-TOP:40PX;
+    FONT-SIZE:60PX;
+    color: rgb(247, 242, 242);
+    font-weight: bolder;
+}
+A{
+    font-size: 2rem;
+    COLOR:#F2CA6B;;
+    HEIGHT:60PX;
+    WIDTH:300PX;
+    background-color: transparent;
+    BORDER-RADIUS:50PX;
+    DISPLAY:FLEX;
+    JUSTIFY-CONTENT:CENTER;
+    ALIGN-ITEMS:CENTER;
+    PADDING:10PX;
+    PADDING-BOTTOM:10PX;
+    MARGIN:7PX;
+    cursor: pointer;
+    text-decoration: underline;
+    FONT-WEIGHT:BOLD;
+    color: whitesmoke;
+}
+.links{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
